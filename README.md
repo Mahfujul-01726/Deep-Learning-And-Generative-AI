@@ -1,4 +1,4 @@
-Certainly! Below is a more detailed breakdown of the **Deep Learning & Generative AI Course Outline**, including additional subtopics, practical implementations, and learning objectives for each class. This expanded version will provide a clearer understanding of what will be covered in each module and class.
+ **Deep Learning & Generative AI Course Outline**
 
 ---
 
