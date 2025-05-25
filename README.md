@@ -294,7 +294,7 @@
 
 ---
 
-## **Module 4: Generative AI (6 Classes)**
+## **Module 4: Generative AI & Advanced Topics (10 Classes)**
 
 ### **Class 20: Introduction to Generative AI**
 - **Learning Objectives:**
@@ -364,5 +364,107 @@
     - Model evaluation, debugging, and optimization.
 
 ---
+
+### **Class 25: Multimodality - VAEs and Multimodal LLMs**  
+- **Learning Objectives:**  
+  - Understand multimodal inputs (text, images, audio).  
+  - Learn VAE architecture for multimodal data fusion.  
+  - Integrate multiple modalities into LLMs (e.g., CLIP, Flamingo).  
+  - Build a multimodal LLM-powered chat assistant.  
+- **Topics:**  
+  - **Multimodal Data Handling:**  
+    - Text-image pairings, embeddings, alignment.  
+  - **VAEs for Multimodality:**  
+    - Encoder-decoder with cross-modal latent spaces.  
+  - **Multimodal LLMs:**  
+    - Architecture extensions (e.g., LLaVA, GPT-4V).  
+  - **Applications:**  
+    - Chatbots with image/text understanding.  
+
+---
+
+### **Class 26: Model Optimization for Deep Learning & LLMs**  
+- **Learning Objectives:**  
+  - Master quantization (1.58-bit LLMs, QAT, PTQ).  
+  - Apply knowledge distillation (teacher-student models).  
+  - Implement Parameter-Efficient Fine-Tuning (LoRA, QLoRA).  
+  - Optimize LLMs for edge devices.  
+- **Topics:**  
+  - **Quantization:**  
+    - Linear, QAT, PTQ, 1.58-bit LLMs (e.g., BitNet).  
+  - **Knowledge Distillation:**  
+    - Distilling BERT → TinyBERT.  
+  - **PEFT Techniques:**  
+    - LoRA, QLoRA (memory-efficient fine-tuning).  
+  - **Implementation:**  
+    - Python scripts for optimized inference.  
+
+---
+
+### **Class 27: Reinforcement Learning for LLMs (RAG & RLHF)**  
+- **Learning Objectives:**  
+  - Learn RL basics (agent, environment, reward).  
+  - Improve LLMs with Retrieval-Augmented Generation (RAG).  
+  - Align LLMs via human feedback (RLHF, DPO, PPO).  
+  - Implement RLHF with Python.  
+- **Topics:**  
+  - **RL Fundamentals:**  
+    - Proximal Policy Optimization (PPO).  
+  - **RAG for LLMs:**  
+    - Integrating vector databases for context.  
+  - **Preference Alignment:**  
+    - RLHF, Direct Preference Optimization (DPO).  
+  - **Implementation:**  
+    - Fine-tuning LLMs with RLHF (e.g., OpenAI’s workflow).  
+
+---
+
+### **Class 28: End-to-End Chatbot Development (Generative AI Project)**  
+- **Learning Objectives:**  
+  - Build a full-stack LLM-powered chatbot.  
+  - Integrate Ollama, LangChain, and vector databases.  
+  - Design a ChatUI for user interaction.  
+- **Topics:**  
+  - **Tech Stack:**  
+    - Ollama (local LLMs), LangChain (orchestration), FAISS/Pinecone (vectors).  
+  - **Development Steps:**  
+    - Data ingestion → Embeddings → Retrieval → Response generation.  
+  - **Deployment:**  
+    - Gradio/Streamlit for UI.  
+
+---
+
+### **Class 29: Advanced GRPO & DeepSeek LLM Technology**  
+- **Learning Objectives:**  
+  - Explore GRPO (Generalized Reinforcement Policy Optimization) for LLMs.  
+  - Analyze DeepSeek’s architecture (e.g., FlashAttention, MoE).  
+  - Optimize fine-tuning with Unsloth (speed + memory gains).  
+- **Topics:**  
+  - **GRPO:**  
+    - Extending PPO for LLM training stability.  
+  - **DeepSeek LLM:**  
+    - Efficient attention, quantization, coder capabilities.  
+  - **Unsloth Optimization:**  
+    - 2-5x faster fine-tuning benchmarks.  
+
+---
+
+### **Class 30: AI Agent Workflows (LangChain & CrewAI)**  
+- **Learning Objectives:**  
+  - Design AI agents with memory, planning, and tools.  
+  - Implement multi-agent systems (CrewAI).  
+  - Build a collaborative research agent.  
+- **Topics:**  
+  - **Agent Components:**  
+    - ReAct framework, tool use (e.g., search, APIs).  
+  - **LangChain:**  
+    - Chains, memory, agent loops.  
+  - **CrewAI:**  
+    - Role-based agents (researcher, writer, reviewer).  
+  - **Project:**  
+    - Autonomous research paper summarization system.
+    
+---
+
 
 This detailed course outline provides a comprehensive roadmap for learning deep learning and generative AI, with a mix of theoretical concepts and hands-on projects. Each class builds on the previous one, ensuring a gradual and thorough understanding of the topics.
